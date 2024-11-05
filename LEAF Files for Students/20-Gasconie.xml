@@ -556,4 +556,83 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
-      </rdf:RDF></xenoData></teiHeader><text><body><pb facs="https://raw.githubusercontent.com/kmabennett/LEAF/refs/heads/main/20-Gasconie-Ort-1.jpg"/><div><p><placeName key="Gascony" ref="http://www.wikidata.org/entity/Q191085" cert="high">GASCONIE</placeName></p><p>THis prouince of Gaſconie is ſituate on the ſourthweſt ſyde of <placeName key="France" ref="http://www.wikidata.org/entity/Q142">France<precision match="@ref" precision="medium"/></placeName> reatching on the ſheſaid ſyde vnto the Piernrey mountaines by the which France &amp; <placeName key="Spain" ref="http://www.wikidata.org/entity/Q29" cert="high">Spaine</placeName> are deuyded. On the eaſt ſyde it hath Langusdes and on the north Guienne and Arminas. The people are valiant &amp; warlyk. The country is very plentiful of all thinges, but it chiefly aboundeth in wyne, where with it not only ſerueth it felf , but ſundry other countryes in Europe beſydes. In the tyme of <persName key="Charles the Great" ref="http://www.wikidata.org/entity/Q3044" cert="medium" type="real">Carolus Magnus</persName> it was called the kingdome of Gaſcony. In this country theſaid Charles the great marching againſt the Saracins of Spaine did loſe in a battaile forty thowſand men, in which battaile his noble nephew the Earle Roland was ſlaine.  This country was firſt ſubdued vnto France by <persName key="Dagobert I" ref="http://www.wikidata.org/entity/Q109860">Dagobert</persName> the firſt of that name. In the yeare of our lord 1255 both it and all Aquitaine came to bee ſubie &amp; vnto the crowne of <placeName key="Kingdom of England" ref="http://www.wikidata.org/entity/Q179876">England</placeName>, through the marriage of <persName key="Henry II of England" ref="http://www.wikidata.org/entity/Q102140" cert="high" type="real">King Henry</persName> the ſecond of that name , with Elinor daughter and heyr vnto VVilliam Duke of Aquitaine. And it was loſt in the yeare of our lord 1453. in the 31 yeare of the raigne of King Henry the fixt, ſo it remayned vnder the obeiſance of England about 300 yeares. </p></div></body></text></TEI>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/eberson04/LEAF/main/LEAF%20Files%20for%20Students/20-Gasconie.xml?person_annotation_20241105151034489",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-05T20:10:34.489Z",
+	"dcterms:modified": "2024-11-05T20:10:34.489Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eberson04",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Ezra  Berson"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/eberson04/LEAF/main/LEAF%20Files%20for%20Students/20-Gasconie.xml?person_annotation_20241105151034489#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/eberson04/LEAF/main/LEAF%20Files%20for%20Students/20-Gasconie.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/eberson04/LEAF/main/LEAF%20Files%20for%20Students/20-Gasconie.xml?person_annotation_20241105151034489#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/persName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://vocab.getty.edu/ulan/500271303",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader><text><body><pb facs="https://raw.githubusercontent.com/kmabennett/LEAF/refs/heads/main/20-Gasconie-Ort-1.jpg"/><div><p><placeName key="Gascony" ref="http://www.wikidata.org/entity/Q191085" cert="high">GASCONIE</placeName></p><p>THis prouince of Gaſconie is ſituate on the ſourthweſt ſyde of <placeName key="France" ref="http://www.wikidata.org/entity/Q142">France<precision match="@ref" precision="medium"/></placeName> reatching on the ſheſaid ſyde vnto the Piernrey mountaines by the which France &amp; <placeName key="Spain" ref="http://www.wikidata.org/entity/Q29" cert="high">Spaine</placeName> are deuyded. On the eaſt ſyde it hath Langusdes and on the north Guienne and Arminas. The people are valiant &amp; warlyk. The country is very plentiful of all thinges, but it chiefly aboundeth in wyne, where with it not only ſerueth it felf , but ſundry other countryes in Europe beſydes. In the tyme of <persName key="Charles the Great" ref="http://www.wikidata.org/entity/Q3044" cert="medium" type="real">Carolus Magnus</persName> it was called the kingdome of Gaſcony. In this country theſaid Charles the great marching againſt the Saracins of Spaine did loſe in a battaile forty thowſand men, in which battaile his noble nephew the Earle Roland was ſlaine.  This country was firſt ſubdued vnto France by <persName key="Dagobert I" ref="http://www.wikidata.org/entity/Q109860">Dagobert</persName> the firſt of that name. In the yeare of our lord 1255 both it and all Aquitaine came to bee ſubie &amp; vnto the crowne of <placeName key="Kingdom of England" ref="http://www.wikidata.org/entity/Q179876">England</placeName>, through the marriage of <persName key="Henry II of England" ref="http://www.wikidata.org/entity/Q102140" cert="high" type="real">King Henry</persName> the ſecond of that name , with Elinor daughter and heyr vnto VVilliam Duke of Aquitaine. And it was loſt in the yeare of our lord 1453. in the 31 yeare of the raigne of <persName key="Henry VI, King of England" ref="http://vocab.getty.edu/ulan/500271303">King Henry the ſixt</persName>, ſo it remayned vnder the obeiſance of England about 300 yeares. </p></div></body></text></TEI>
