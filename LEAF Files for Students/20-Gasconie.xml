@@ -273,7 +273,6 @@
 	"id": "https://raw.githubusercontent.com/eberson04/LEAF/main/LEAF%20Files%20for%20Students/20-Gasconie.xml?person_annotation_20241105150540903",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-11-05T20:05:40.903Z",
-	"dcterms:modified": "2024-11-05T20:05:40.903Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eberson04",
 		"@type": [
@@ -300,7 +299,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/eberson04/LEAF/main/LEAF%20Files%20for%20Students/20-Gasconie.xml?person_annotation_20241105150540903#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[2]/persName"
+			"rdf:value": "TEI/text/body/div/p[4]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -353,7 +352,6 @@
 	"id": "https://raw.githubusercontent.com/eberson04/LEAF/main/LEAF%20Files%20for%20Students/20-Gasconie.xml?person_annotation_20241105150752842",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-11-05T20:07:52.842Z",
-	"dcterms:modified": "2024-11-05T20:07:52.842Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eberson04",
 		"@type": [
@@ -380,7 +378,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/eberson04/LEAF/main/LEAF%20Files%20for%20Students/20-Gasconie.xml?person_annotation_20241105150752842#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[2]/persName[2]"
+			"rdf:value": "TEI/text/body/div/p[4]/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -432,7 +430,6 @@
 	"id": "https://raw.githubusercontent.com/eberson04/LEAF/main/LEAF%20Files%20for%20Students/20-Gasconie.xml?place_annotation_20241105150815869",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-11-05T20:08:15.869Z",
-	"dcterms:modified": "2024-11-05T20:08:15.869Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eberson04",
 		"@type": [
@@ -459,7 +456,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/eberson04/LEAF/main/LEAF%20Files%20for%20Students/20-Gasconie.xml?place_annotation_20241105150815869#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[2]/placeName[3]"
+			"rdf:value": "TEI/text/body/div/p[4]/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -511,7 +508,6 @@
 	"id": "https://raw.githubusercontent.com/eberson04/LEAF/main/LEAF%20Files%20for%20Students/20-Gasconie.xml?person_annotation_20241105150832861",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-11-05T20:08:32.861Z",
-	"dcterms:modified": "2024-11-05T20:08:32.861Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eberson04",
 		"@type": [
@@ -538,7 +534,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/eberson04/LEAF/main/LEAF%20Files%20for%20Students/20-Gasconie.xml?person_annotation_20241105150832861#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[2]/persName[3]"
+			"rdf:value": "TEI/text/body/div/p[4]/persName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -591,7 +587,6 @@
 	"id": "https://raw.githubusercontent.com/eberson04/LEAF/main/LEAF%20Files%20for%20Students/20-Gasconie.xml?person_annotation_20241105151034489",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-11-05T20:10:34.489Z",
-	"dcterms:modified": "2024-11-05T20:10:34.489Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eberson04",
 		"@type": [
@@ -618,7 +613,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/eberson04/LEAF/main/LEAF%20Files%20for%20Students/20-Gasconie.xml?person_annotation_20241105151034489#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[2]/persName[4]"
+			"rdf:value": "TEI/text/body/div/p[4]/persName[5]"
 		}
 	},
 	"oa:hasBody": {
@@ -670,7 +665,6 @@
 	"id": "https://raw.githubusercontent.com/eberson04/LEAF/main/LEAF%20Files%20for%20Students/20-Gasconie.xml?person_annotation_20241105151357102",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-11-05T20:13:57.102Z",
-	"dcterms:modified": "2024-11-05T20:13:57.102Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eberson04",
 		"@type": [
@@ -696,20 +690,8 @@
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/eberson04/LEAF/main/LEAF%20Files%20for%20Students/20-Gasconie.xml?person_annotation_20241105151357102#Selector",
-			"@type": "oa:RangeSelector",
-			"oa:hasStartSelector": {
-				"@type": "oa:XPathSelector",
-				"rdf:value": "TEI/text/body/div/p[2]"
-			},
-			"oa:hasEndSelector": {
-				"@type": "oa:XPathSelector",
-				"rdf:value": "TEI/text/body/div/p[2]"
-			},
-			"oa:refinedBy": {
-				"@type": "oa:TextPositionSelector",
-				"oa:start": 978,
-				"oa:end": 1004
-			}
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[4]/persName[4]"
 		}
 	},
 	"oa:hasBody": {
@@ -727,4 +709,4 @@
 	"cwrc:hasCertainty": "cwrc:medium"
 }]]>
         </rdf:Description>
-      </rdf:RDF></xenoData></teiHeader><text><body><pb facs="https://raw.githubusercontent.com/kmabennett/LEAF/refs/heads/main/20-Gasconie-Ort-1.jpg"/><div><p><placeName key="Gascony" ref="http://www.wikidata.org/entity/Q191085" cert="high">GASCONIE</placeName></p><p>THis prouince of Gaſconie is ſituate on the ſourthweſt ſyde of <placeName key="France" ref="http://www.wikidata.org/entity/Q142">France<precision match="@ref" precision="medium"/></placeName> reatching on the ſheſaid ſyde vnto the Piernrey mountaines by the which France &amp; <placeName key="Spain" ref="http://www.wikidata.org/entity/Q29" cert="high">Spaine</placeName> are deuyded. On the eaſt ſyde it hath Langusdes and on the north Guienne and Arminas. The people are valiant &amp; warlyk. The country is very plentiful of all thinges, but it chiefly aboundeth in wyne, where with it not only ſerueth it felf , but ſundry other countryes in Europe beſydes. In the tyme of <persName key="Charles the Great" ref="http://www.wikidata.org/entity/Q3044" cert="medium" type="real">Carolus Magnus</persName> it was called the kingdome of Gaſcony. In this country theſaid Charles the great marching againſt the Saracins of Spaine did loſe in a battaile forty thowſand men, in which battaile his noble nephew the Earle Roland was ſlaine.  This country was firſt ſubdued vnto France by <persName key="Dagobert I" ref="http://www.wikidata.org/entity/Q109860">Dagobert</persName> the firſt of that name. In the yeare of our lord 1255 both it and all Aquitaine came to bee ſubie &amp; vnto the crowne of <placeName key="Kingdom of England" ref="http://www.wikidata.org/entity/Q179876">England</placeName>, through the marriage of <persName key="Henry II of England" ref="http://www.wikidata.org/entity/Q102140" cert="high" type="real">King Henry</persName> the ſecond of that name , with Elinor daughter and heyr vnto VVilliam Duke of Aquitaine. And it was loſt in the yeare of our lord 1453. in the 31 yeare of the raigne of <persName key="Henry VI, King of England" ref="http://vocab.getty.edu/ulan/500271303">King Henry the ſixt</persName>, ſo it remayned vnder the obeiſance of England about 300 yeares. </p></div></body></text></TEI>
+      </rdf:RDF></xenoData></teiHeader><text><body><pb facs="https://raw.githubusercontent.com/kmabennett/LEAF/refs/heads/main/20-Gasconie-Ort-1.jpg"/><div><p><placeName key="Gascony" ref="http://www.wikidata.org/entity/Q191085" cert="high">GASCONIE</placeName></p><p>THis prouince of Gaſconie is ſituate on the ſourthweſt ſyde of <placeName key="France" ref="http://www.wikidata.org/entity/Q142">France<precision match="@ref" precision="medium"/></placeName> reatching on the ſheſaid ſyde vnto the Piernrey mountaines by the which France &amp; <placeName key="Spain" ref="http://www.wikidata.org/entity/Q29" cert="high">Spaine</placeName> are deuyded. On the eaſt ſyde it hath Langusdes and on the north Guienne and Arminas. </p><p>The people are valiant &amp; warlyk. The country is very plentiful of all thinges, but it chiefly aboundeth in wyne, where with it not only ſerueth it felf , but ſundry other countryes in Europe beſydes.</p><p> In the tyme of <persName key="Charles the Great" ref="http://www.wikidata.org/entity/Q3044" cert="medium" type="real">Carolus Magnus</persName> it was called the kingdome of Gaſcony. In this country theſaid Charles the great marching againſt the Saracins of Spaine did loſe in a battaile forty thowſand men, in which battaile his noble nephew the Earle Roland was ſlaine.  This country was firſt ſubdued vnto France by <persName key="Dagobert I" ref="http://www.wikidata.org/entity/Q109860">Dagobert</persName> the firſt of that name. In the yeare of our lord 1255 both it and all Aquitaine came to bee ſubie &amp; vnto the crowne of <placeName key="Kingdom of England" ref="http://www.wikidata.org/entity/Q179876">England</placeName>, through the marriage of <persName key="Henry II of England" ref="http://www.wikidata.org/entity/Q102140" cert="high" type="real">King Henry</persName> the ſecond of that name , with Elinor daughter and heyr v<persName>nto VVilliam Duke of Aquit</persName>aine. And it was loſt in the yeare of our lord 1453. in the 31 yeare of the raigne of <persName key="Henry VI, King of England" ref="http://vocab.getty.edu/ulan/500271303">King Henry the ſixt</persName>, ſo it remayned vnder the obeiſance of England about 300 yeares. </p></div></body></text></TEI>
